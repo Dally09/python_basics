@@ -1,4 +1,5 @@
 import math
+import os
 
 age = 22 #int
 height = 1.88 # float
@@ -30,3 +31,6 @@ print(round(0.5/2, 2))
 print(round(5.69999/2,3))
 
 print(round(math.pi, 2))
+
+print(math.pi * 7 * 7)
+os.system("shutdown")
