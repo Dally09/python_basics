@@ -1,2 +1,15 @@
 .venv/
 .idea/
+*.mp3
+*.txt
+*.webm
+!requirements.txt
+
+
+# git init
+# git add .
+# git commit -m "Python basics"
+# git remote add origin https://github.com/Dally09/python_basics.git
+# git push -u origin master/main
+
+# pip freeze > requirements.txt
