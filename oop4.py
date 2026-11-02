@@ -37,6 +37,10 @@ class CasualWorker(Employee):
 
     def calc_wage(self, hours: float):
         return hours * self.rate
+    # override
+    def print_details(self):
+        print(f"Rate is {self.rate} per hour")
+        super().print_details()
 
 
 s1 = SalariedEmployee("Sarah San", "2222333", "HR", "F", 95_000, 4)
